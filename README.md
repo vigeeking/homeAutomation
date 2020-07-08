@@ -3,3 +3,8 @@ Due to covid, my company laid off 25% of their workforce.  I was part of the 25%
 From there I started to look into documentation, and otherwise organizing my thoughts.  There were some unanticipated downstream benefits to this optimization, and that makes for an interesting story in its own right.  But, part of organizing my thoughts is documentation, and my goal for documentation is to only document what makes sense.  
 
 This blurb is to be the sole "business value add" for this project.  I am writing this documentation because at some point I may be using this project professionally, and so I felt this would serve as a quick how-to manual for the rest of this.  The only information I will add here is information I do not find valuable to document internally, but makes sense for a business case.  After all, if you don't plan for it, then it's harder to add it downstream.
+
+Currently, the pipeline can be created by pulling this repo and running 
+docker-compose up -d 
+in the directory you cloned this project into.
+
