@@ -5,11 +5,6 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - pipeline:/usr/share/nginx/html
+      - ./html:/usr/share/nginx/html
 volumes:
   pipeline:
-    driver: local
-    driver_opts:
-       o: bind
-       type: none
-       device: ./html
