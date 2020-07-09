@@ -1,0 +1,407 @@
+- id: '1583117723313'
+  name: Living room on
+  entities:
+    light.jasco_products_unknown_type_4944_id_3135_level_2:
+      brightness: 255
+      friendly_name: Living Room Light switch
+      node_id: 8
+      state: 'on'
+      supported_features: 33
+      value_id: '72057594176962561'
+      value_index: 0
+      value_instance: 1
+    switch.giraffe_light:
+      friendly_name: giraffe light
+      state: 'on'
+    switch.jasco_products_28169_plug_in_one_outlet_smart_switch_switch:
+      friendly_name: living room game side light
+      node_id: 9
+      state: 'on'
+      value_id: '72057594193723392'
+      value_index: 0
+      value_instance: 1
+    switch.jasco_products_28169_plug_in_one_outlet_smart_switch_switch_2:
+      friendly_name: living room window side light
+      node_id: 10
+      state: 'on'
+      value_id: '72057594210500608'
+      value_index: 0
+      value_instance: 1
+    zwave.jasco_products_28169_plug_in_one_outlet_smart_switch:
+      application_version: '5.25'
+      averageRequestRTT: 75
+      averageResponseRTT: 178
+      capabilities:
+      - zwave_plus
+      - routing
+      - listening
+      - beaming
+      friendly_name: Living Room Game Side Light
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 79
+      lastResponseRTT: 157
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 2
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      node_id: 9
+      node_name: Jasco Products 28169 Plug-In One-Outlet Smart Switch
+      product_name: 28169 Plug-In One-Outlet Smart Switch
+      query_stage: Complete
+      receivedCnt: 19
+      receivedDups: 2
+      receivedTS: '2020-03-01 21:59:36:849 '
+      receivedUnsolicited: 1
+      retries: 0
+      sentCnt: 32
+      sentFailed: 0
+      sentTS: '2020-03-01 21:59:36:691 '
+      state: ready
+    zwave.jasco_products_28169_plug_in_one_outlet_smart_switch_2:
+      application_version: '5.25'
+      averageRequestRTT: 45
+      averageResponseRTT: 77
+      capabilities:
+      - zwave_plus
+      - routing
+      - listening
+      - beaming
+      friendly_name: Living Room Window Side Light
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 21
+      lastResponseRTT: 122
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 5
+      - 6
+      - 7
+      - 9
+      - 13
+      - 14
+      - 15
+      node_id: 10
+      node_name: Jasco Products 28169 Plug-In One-Outlet Smart Switch
+      product_name: 28169 Plug-In One-Outlet Smart Switch
+      query_stage: Complete
+      receivedCnt: 20
+      receivedDups: 2
+      receivedTS: '2020-03-01 21:59:37:065 '
+      receivedUnsolicited: 0
+      retries: 0
+      sentCnt: 36
+      sentFailed: 0
+      sentTS: '2020-03-01 21:59:36:944 '
+      state: ready
+    zwave.jasco_products_unknown_type_4944_id_3135_2:
+      application_version: '5.29'
+      averageRequestRTT: 66
+      averageResponseRTT: 153
+      capabilities:
+      - zwave_plus
+      - routing
+      - listening
+      - beaming
+      friendly_name: Living Room Light switch
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 71
+      lastResponseRTT: 154
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 2
+      - 5
+      - 6
+      - 7
+      - 9
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      node_id: 8
+      node_name: 'Jasco Products Unknown: type=4944, id=3135'
+      product_name: 'Unknown: type=4944, id=3135'
+      query_stage: Complete
+      receivedCnt: 24
+      receivedDups: 2
+      receivedTS: '2020-03-01 21:59:36:217 '
+      receivedUnsolicited: 2
+      retries: 0
+      sentCnt: 32
+      sentFailed: 0
+      sentTS: '2020-03-01 21:59:36:063 '
+      state: ready
+- id: '1583117765814'
+  name: Living Room off
+  entities:
+    light.jasco_products_unknown_type_4944_id_3135_level_2:
+      friendly_name: Living Room Light switch
+      node_id: 8
+      state: 'off'
+      supported_features: 33
+      value_id: '72057594176962561'
+      value_index: 0
+      value_instance: 1
+    switch.giraffe_light:
+      friendly_name: giraffe light
+      state: 'off'
+    switch.jasco_products_28169_plug_in_one_outlet_smart_switch_switch:
+      friendly_name: living room game side light
+      node_id: 9
+      state: 'off'
+      value_id: '72057594193723392'
+      value_index: 0
+      value_instance: 1
+    switch.jasco_products_28169_plug_in_one_outlet_smart_switch_switch_2:
+      friendly_name: living room window side light
+      node_id: 10
+      state: 'off'
+      value_id: '72057594210500608'
+      value_index: 0
+      value_instance: 1
+    zwave.jasco_products_28169_plug_in_one_outlet_smart_switch:
+      application_version: '5.25'
+      averageRequestRTT: 84
+      averageResponseRTT: 217
+      capabilities:
+      - zwave_plus
+      - routing
+      - listening
+      - beaming
+      friendly_name: Living Room Game Side Light
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 73
+      lastResponseRTT: 195
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 2
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      node_id: 9
+      node_name: Jasco Products 28169 Plug-In One-Outlet Smart Switch
+      product_name: 28169 Plug-In One-Outlet Smart Switch
+      query_stage: Complete
+      receivedCnt: 17
+      receivedDups: 1
+      receivedTS: '2020-03-01 21:58:57:647 '
+      receivedUnsolicited: 1
+      retries: 0
+      sentCnt: 28
+      sentFailed: 0
+      sentTS: '2020-03-01 21:58:57:451 '
+      state: ready
+    zwave.jasco_products_28169_plug_in_one_outlet_smart_switch_2:
+      application_version: '5.25'
+      averageRequestRTT: 57
+      averageResponseRTT: 33
+      capabilities:
+      - zwave_plus
+      - routing
+      - listening
+      - beaming
+      friendly_name: Living Room Window Side Light
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 21
+      lastResponseRTT: 32
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 5
+      - 6
+      - 7
+      - 9
+      - 13
+      - 14
+      - 15
+      node_id: 10
+      node_name: Jasco Products 28169 Plug-In One-Outlet Smart Switch
+      product_name: 28169 Plug-In One-Outlet Smart Switch
+      query_stage: Complete
+      receivedCnt: 18
+      receivedDups: 1
+      receivedTS: '2020-03-01 21:58:57:830 '
+      receivedUnsolicited: 0
+      retries: 0
+      sentCnt: 32
+      sentFailed: 0
+      sentTS: '2020-03-01 21:58:57:798 '
+      state: ready
+    zwave.jasco_products_unknown_type_4944_id_3135_2:
+      application_version: '5.29'
+      averageRequestRTT: 67
+      averageResponseRTT: 152
+      capabilities:
+      - zwave_plus
+      - routing
+      - listening
+      - beaming
+      friendly_name: Living Room Light switch
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 73
+      lastResponseRTT: 156
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 2
+      - 5
+      - 6
+      - 7
+      - 9
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      node_id: 8
+      node_name: 'Jasco Products Unknown: type=4944, id=3135'
+      product_name: 'Unknown: type=4944, id=3135'
+      query_stage: Complete
+      receivedCnt: 23
+      receivedDups: 2
+      receivedTS: '2020-03-01 21:58:57:284 '
+      receivedUnsolicited: 2
+      retries: 0
+      sentCnt: 30
+      sentFailed: 0
+      sentTS: '2020-03-01 21:57:21:663 '
+      state: ready
+- id: '1583118309616'
+  name: Kitchen on
+  entities:
+    switch.disco_kitchen:
+      friendly_name: Disco kitchen
+      state: 'on'
+    switch.dryingracklight:
+      friendly_name: dryingracklight
+      state: 'on'
+    switch.kitchen_light:
+      friendly_name: kitchen light
+      state: 'on'
+    switch.under_cabinet_kitchen_lighting:
+      friendly_name: under cabinet kitchen lighting
+      state: 'on'
+- id: '1583118360091'
+  name: Kitchen off
+  entities:
+    switch.disco_kitchen:
+      friendly_name: Disco kitchen
+      state: 'off'
+    switch.dryingracklight:
+      friendly_name: dryingracklight
+      state: 'off'
+    switch.kitchen_light:
+      friendly_name: kitchen light
+      state: 'off'
+    switch.under_cabinet_kitchen_lighting:
+      friendly_name: under cabinet kitchen lighting
+      state: 'off'
+- id: '1583202791314'
+  name: Bar on
+  entities:
+    light.jasco_products_14294_in_wall_smart_dimmer_level_2:
+      brightness: 255
+      friendly_name: Downstairs light
+      node_id: 6
+      state: 'on'
+      supported_features: 33
+      value_id: '72057594143408129'
+      value_index: 0
+      value_instance: 1
+    zwave.jasco_products_14294_in_wall_smart_dimmer_2:
+      application_version: '5.29'
+      averageRequestRTT: 404
+      averageResponseRTT: 505
+      capabilities:
+      - zwave_plus
+      - beaming
+      - routing
+      - listening
+      friendly_name: Downstairs light?
+      is_awake: true
+      is_failed: false
+      is_info_received: true
+      is_ready: true
+      is_zwave_plus: true
+      lastRequestRTT: 21
+      lastResponseRTT: 31
+      manufacturer_name: Jasco Products
+      max_baud_rate: 40000
+      neighbors:
+      - 2
+      - 5
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 15
+      node_id: 6
+      node_name: Jasco Products 14294 In-Wall Smart Dimmer
+      product_name: 14294 In-Wall Smart Dimmer
+      query_stage: Complete
+      receivedCnt: 7
+      receivedDups: 1
+      receivedTS: '2020-03-02 19:03:54:876 '
+      receivedUnsolicited: 0
+      retries: 0
+      sentCnt: 10
+      sentFailed: 0
+      sentTS: '2020-03-02 19:03:54:844 '
+      state: ready
+- id: '1583203168424'
+  name: Workout Room on
+  entities:
+    switch.workout_room_worklight:
+      friendly_name: workout room worklight
+      state: 'on'
+- id: '1583203187808'
+  name: Workout Room off
+  entities:
+    switch.workout_room_worklight:
+      friendly_name: workout room worklight
+      state: 'off'
