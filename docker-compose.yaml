@@ -5,7 +5,6 @@ services:
     network_mode: "host" 
     volumes: 
       - ./homeassistant/config:/config
-      - /etc/localtime:etc/localtime:ro
   nginx:
     image: nginx:latest
     ports:
