@@ -8,3 +8,7 @@ Currently, the pipeline can be created by pulling this repo and running
 docker-compose up -d 
 in the directory you cloned this project into.
 
+I plan to update this readme at some point, so I am leaving this note here as it is the most logical place for it: 
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#images
+
+
