@@ -15,7 +15,7 @@ light:
 amcrest:
   - host: 10.42.100.5
     username: admin
-    password: !secret amcrest_password
+    password: ${{ secrets.AMCREST_PASSWORD }}
 
 group: !include groups.yaml
 automation: !include automations.yaml
