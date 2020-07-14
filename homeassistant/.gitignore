@@ -1,5 +1,0 @@
-secrets.yaml
-.storage
-homeassistant/.storage
-*.log
-homeassistant/config/home-assistant.log

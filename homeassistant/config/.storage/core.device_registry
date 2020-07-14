@@ -1,0 +1,345 @@
+{
+    "data": {
+        "deleted_devices": [],
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:34:68:7f"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "f0034f404b134356866ff13d43ece41f",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "Tim's office wall switch",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:cb:37:7c"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "f75442e02638408db5b5bf8a2b11f61c",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "laundry room light",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:bc:99:f9"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "1656040528184d1c98cddfac59de718e",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "downstairs fireplace",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:cb:39:c5"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "55ac462b9ace426fa8d8765c91efdd88",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "mbr fan",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:34:a8:84"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "b8c9a4f963054bbda5d3b21979c0d2d1",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "kitchen light",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:bc:a7:27"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "cea1c7d491e24e9985d46a4d28da791f",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "workout room worklight",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:bc:9b:3b"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "cca83290d3b84342b6f7a59754bd98fd",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "giraffe light",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:7f:ed:6b"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "d1140a37bada49be98bc01e8ad81451a",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "fireplace",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:46:f9:88"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "83b574bdd29947d28ac05cbb926ef9e4",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "under cabinet kitchen lighting",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:34:8f:aa"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "523d534bbe7b4f0e9a131f1bfa05aaff",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "Jens office",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:bc:9e:15"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "0bebcfe9c0b5412a92140e263bad3f8b",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "Disco kitchen",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:cb:37:be"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "72446e87baae47c780130f241e726cf8",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "workout room. ceiling light",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:46:da:4f"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "e778bdc8c57242c2bec3baac289c6550",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "dryingracklight",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:7f:f8:c2"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "970b3f68795744ed85b0b272882aa454",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS105(US)",
+                "name": "kitchen under cabinet lighting",
+                "name_by_user": null,
+                "sw_version": "1.5.6 Build 191114 Rel.104204",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:cb:36:f8"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "a512388b844142a7963f5acf6f15d897",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "guest bathroom light",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12cb5a4e81a4439884a1b420cfc1a933"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b0:be:76:cb:38:12"
+                    ]
+                ],
+                "entry_type": null,
+                "id": "451a392a4e354004b4c411c609820a7f",
+                "identifiers": [],
+                "manufacturer": "TP-Link",
+                "model": "HS200(US)",
+                "name": "master bath light",
+                "name_by_user": null,
+                "sw_version": "1.5.7 Build 191118 Rel.140152",
+                "via_device_id": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}
