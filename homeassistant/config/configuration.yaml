@@ -2,48 +2,49 @@
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
-
-# Text to speech
-tts:
-  - platform: google_translate
-light:
-  - platform: osramlightify
-    host: 10.42.100.108
-amcrest:
-  - host: 10.42.100.5
-    username: admin
-    password: !secret amcrest_password
-tplink:
-  discovery: false
-  switch:
-    - host: 10.42.100.101
-    - host: 10.42.100.102
-    - host: 10.42.100.103
-    - host: 10.42.100.114
-    - host: 10.42.100.115
-    - host: 10.42.100.116
-    - host: 10.42.100.118
-    - host: 10.42.100.119
-    #    
-    - host: 10.42.100.117 
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # http:
+  #   base_url: example.duckdns.org:8123
+  
+  # Text to speech
+  tts:
+    - platform: google_translate
   light:
-    - host: 10.42.100.127
-    - host: 10.42.100.104
-    - host: 10.42.100.105
-    - host: 10.42.100.106
-    - host: 10.42.100.107
-    - host: 10.42.100.110
-zwave:
-  usb_path: /dev/ttyACM0
-zha:
-  usb_path: /dev/ttyACM1
-  database_path: /config/zigbee.db
-
-
-group: !include groups.yaml
-automation: !include automations.yaml
-script: !include scripts.yaml
-scene: !include scenes.yaml
+    - platform: osramlightify
+      host: 10.42.100.108
+  amcrest:
+    - host: 10.42.100.5
+      username: admin
+      password: !secret amcrest_password
+  tplink:
+    discovery: false
+  
+    switch:
+      - host: 10.42.100.101
+      - host: 10.42.100.102
+      - host: 10.42.100.103
+      - host: 10.42.100.114
+      - host: 10.42.100.115
+      - host: 10.42.100.116
+      - host: 10.42.100.118
+      - host: 10.42.100.119    
+      - host: 10.42.100.117
+  #  light:
+      - host: 10.42.100.127
+      - host: 10.42.100.104
+      - host: 10.42.100.105
+      - host: 10.42.100.106
+      - host: 10.42.100.107
+      - host: 10.42.100.110     
+  
+  #zwave:
+  #  usb_path: /dev/ttyACM0
+  #zha:
+  #  usb_path: /dev/ttyACM1
+  #  database_path: /config/zigbee.db
+  
+  group: !include groups.yaml
+  automation: !include automations.yaml
+  script: !include scripts.yaml
+  scene: !include scenes.yaml
+  
