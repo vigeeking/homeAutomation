@@ -1,6 +1,5 @@
 homeassistant/config/zigbee.db
 homeassistant/config/home-assistant_v2.db
-homeassistant/config/OZW_Log.txt
 homeassistant/config/.storage/core.restore_state
 homeassistant/config/secrets.yaml
 homeassistant/config/home-assistant.log
