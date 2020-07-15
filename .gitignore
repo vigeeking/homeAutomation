@@ -1,7 +1,6 @@
 homeassistant/config/zigbee.db
 homeassistant/config/home-assistant_v2.db
 homeassistant/config/.storage/core.restore_state
-homeassistant/config/secrets.yaml
 homeassistant/config/home-assistant.log
 homeassistant/config/.storage/auth
 homeassistant/config/.storage/auth_provider.homeassistant
