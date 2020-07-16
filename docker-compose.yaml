@@ -16,4 +16,3 @@ services:
       - ./html:/usr/share/nginx/html
 volumes:
   pipeline:
-  hassio:
