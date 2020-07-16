@@ -5,6 +5,9 @@ services:
     network_mode: "host" 
     volumes: 
       - ./homeassistant/config:/config
+    devices: 
+      - /dev/ttyUSB0:/dev/ttyUSB0
+      - /dev/ttyUSB1:/dev/ttyUSB1        
   nginx:
     image: nginx:latest
     ports:
