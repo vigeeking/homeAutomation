@@ -37,7 +37,7 @@
                 "connection_class": "local_push",
                 "data": {
                     "network_key": null,
-                    "usb_path": "/dev/bus/usb/002/003"
+                    "usb_path": "/dev/ttyUSB0"
                 },
                 "domain": "zwave",
                 "entry_id": "2bc7cb6de84648b3ba6b6d772dd3be45",
