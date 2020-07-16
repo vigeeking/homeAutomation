@@ -1,5 +1,10 @@
 version: '3'
 services:
+  home-assistant:
+    image: homeassistant/home-assistant:stable
+    network_mode: "host" 
+    volumes: 
+      - ./homeassistant/config:/config
   nginx:
     image: nginx:latest
     ports:
@@ -8,3 +13,4 @@ services:
       - ./html:/usr/share/nginx/html
 volumes:
   pipeline:
+  hassio:
