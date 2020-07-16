@@ -35,9 +35,8 @@ tplink:
     - host: 10.42.100.107
     - host: 10.42.100.110     
 zwave:
-  usb_path: /dev/ttyACM0
+  usb_path: /dev/ttyUSB0
 zha:
-  usb_path: /dev/ttyACM1
   database_path: /config/zigbee.db
 
 group: !include groups.yaml
