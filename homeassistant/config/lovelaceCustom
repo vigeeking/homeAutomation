@@ -1,36 +1,35 @@
 title: Dharma
 views:
-  - path: default_view
-    title: Home
-    badges:
+  - badges:
       - entity: binary_sensor.updater
       - entity: person.tim
       - entity: sun.sun
     cards:
-      - type: picture-entity
-        entity: camera.amcrest_camera
-      - type: entities
-        name: Upstairs
-        entities:
+      - entity: camera.amcrest_camera
+        type: picture-entity
+      - entities:
           - switch.jens_office
           - switch.tim_s_office_wall_switch
           - switch.guest_bathroom_light
           - switch.kitchen_light
           - switch.master_bath_light
+        name: Upstairs
         title: Upstairs
-      - type: entities
-        name: downstairs
-        entities:
+        type: entities
+      - entities:
           - switch.laundry_room_light
           - switch.workout_room_ceiling_light
+        name: downstairs
         title: Downstairs
-      - type: entities
-        name: Keeping cool
-        entities:
+        type: entities
+      - entities:
           - fan.jasco_products_14287_fan_control_switch_level_3
           - fan.jasco_products_14287_fan_control_switch_level
           - fan.jasco_products_14287_fan_control_switch_level_2
+        name: Keeping cool
         title: Keeping cool
-      - type: weather-forecast
-        entity: weather.home
-        
+        type: entities
+      - entity: weather.home
+        type: weather-forecast
+    path: default_view
+    title: Home
