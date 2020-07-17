@@ -1,8 +1,10 @@
 #Check to see if home assistant is running
-echo -n "what is the ip address of Home Assistant?" 
-read hassio
-curl "$hassio:8123"
-echo -n "is this being run locally?"
-read local
-if [ "$local"   
-sed 's#{{ secrets.AMCRESTPASSWORD }}#password#g' homeassistant/secrets.yaml
+hassioStatus=$(curl -o /dev/null -s -w "%{http_code}\n" http://localhost:8123)
+if [ $hassioStatus -ne 200 ]; then
+    {
+        sed 's#{{ secrets.AMCRESTPASSWORD }}#password#g' homeassistant/secrets.yaml
+        docker-compose up -d
+    }
+else
+echo "we're good"
+fi
