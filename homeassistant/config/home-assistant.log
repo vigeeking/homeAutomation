@@ -1,0 +1,45 @@
+2020-07-14 23:08:19 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:08:24 WARNING (MainThread) [homeassistant.setup] Setup of recorder is taking over 10 seconds.
+2020-07-14 23:08:27 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:08:35 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:08:43 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:08:51 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:08:59 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:09:07 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:09:14 WARNING (MainThread) [homeassistant.bootstrap] Waiting on integrations to complete setup: recorder
+2020-07-14 23:09:15 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:09:23 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:09:31 ERROR (Recorder) [homeassistant.components.recorder] Error during connection setup: (sqlite3.OperationalError) database is locked
+(Background on this error at: http://sqlalche.me/e/e3q8) (retrying in 3 seconds)
+2020-07-14 23:09:31 ERROR (MainThread) [homeassistant.setup] Setup failed for recorder: Integration failed to initialize.
+2020-07-14 23:09:32 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of logbook. Setup failed for dependencies: recorder
+2020-07-14 23:09:32 ERROR (MainThread) [homeassistant.setup] Setup failed for logbook: Could not set up all dependencies.
+2020-07-14 23:09:32 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of history. Setup failed for dependencies: recorder
+2020-07-14 23:09:32 ERROR (MainThread) [homeassistant.setup] Setup failed for history: Could not set up all dependencies.
+2020-07-14 23:09:33 ERROR (MainThread) [homeassistant.config_entries] Error setting up entry Z-Wave (import from configuration.yaml) for zwave
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/openzwave/option.py", line 78, in __init__
+    raise ZWaveException(u"Can't find device %s : %s" % (device, traceback.format_exception(*sys.exc_info())))
+openzwave.object.ZWaveException: "Zwave Generic Exception : Can't find device /dev/ttyACM0 : ['NoneType: None\\n']"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/config_entries.py", line 220, in async_setup
+    hass, self
+  File "/usr/src/homeassistant/homeassistant/components/zwave/__init__.py", line 370, in async_setup_entry
+    config_path=config.get(CONF_CONFIG_PATH),
+  File "/usr/local/lib/python3.7/site-packages/openzwave/option.py", line 81, in __init__
+    raise ZWaveException(u"Error when retrieving device %s : %s" % (device, traceback.format_exception(*sys.exc_info())))
+openzwave.object.ZWaveException: 'Zwave Generic Exception : Error when retrieving device /dev/ttyACM0 : [\'Traceback (most recent call last):\\n\', \'  File "/usr/local/lib/python3.7/site-packages/openzwave/option.py", line 78, in __init__\\n    raise ZWaveException(u"Can\\\'t find device %s : %s" % (device, traceback.format_exception(*sys.exc_info())))\\n\', \'openzwave.object.ZWaveException: "Zwave Generic Exception : Can\\\'t find device /dev/ttyACM0 : [\\\'NoneType: None\\\\\\\\n\\\']"\\n\']'
+2020-07-14 23:09:33 ERROR (MainThread) [homeassistant.setup] Unable to set up dependencies of default_config. Setup failed for dependencies: history, logbook
+2020-07-14 23:09:33 ERROR (MainThread) [homeassistant.setup] Setup failed for default_config: Could not set up all dependencies.
