@@ -6,7 +6,7 @@ if [ "$hassioStatus" -ne 200 ]; then
         envsubst < /home/tim/secrets.yaml.template > /home/tim/homeAutomation/homeassistant/config/secrets.yaml
         docker-compose up -d
     }
-elif [ "$mattermostStatus" -ne 200] ; then
+elif [ "$mattermostStatus" -ne 200 ]; then
     {
         docker-compose up -d
     }
