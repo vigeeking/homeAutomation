@@ -25,9 +25,9 @@ homeassistant:
     light.jasco_products_unknown_type_4944_id_3135_level:
       friendly_name: "Dining Room Light"  
     light.jasco_products_unknown_type_4944_id_3135_level_2:
-      friendly_name: "Stairway light"
+      friendly_name: "Living Room light"
     zwave.jasco_products_unknown_type_4952_id_3137:
-      friendly_name: "upstairs?  Possibly master bath fan"
+      friendly_name: "stair light"
 default_config:
 
   # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
