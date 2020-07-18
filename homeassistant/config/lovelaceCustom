@@ -1,39 +1,40 @@
-title: Home
+title: Dharma
 views:
   - badges:
       - entity: binary_sensor.updater
       - entity: person.tim
       - entity: sun.sun
     cards:
-      - hold_action:
-          action: none
-        image: 'http://10.42.100.67:8081/'
-        tap_action:
-          action: none
-        type: picture
-      - entity: weather.home
-        type: weather-forecast
       - entity: camera.amcrest_camera
         type: picture-entity
       - entities:
-          - entity: switch.jens_office
-          - entity: switch.jasco_products_14291_in_wall_smart_switch_switch
-          - entity: switch.guest_bathroom_light
-          - entity: switch.jasco_products_unknown_type_4952_id_3137_switch
-          - entity: switch.kitchen_light
-          - entity: light.jasco_products_14294_in_wall_smart_dimmer_level
-          - entity: switch.tim_s_office_wall_switch
-          - entity: fan.jasco_products_14287_fan_control_switch_level_3
-          - entity: fan.jasco_products_14287_fan_control_switch_level_2
-          - entity: fan.jasco_products_14287_fan_control_switch_level
-          - entity: light.jasco_products_unknown_type_4944_id_3135_level
-          - entity: light.jasco_products_unknown_type_4944_id_3135_level_2
-          - entity: light.jasco_products_14294_in_wall_smart_dimmer_level_2
-          - entity: switch.master_bath_light
+          - switch.jens_office
+          - switch.tim_s_office_wall_switch
+          - switch.guest_bathroom_light
+          - switch.kitchen_light
+          - switch.master_bath_light
+          - light.jasco_products_unknown_type_4944_id_3135_level
+          - switch.jasco_products_14291_in_wall_smart_switch_switch
+          - light.jasco_products_14294_in_wall_smart_dimmer_level
+          - light.jasco_products_unknown_type_4944_id_3135_level_2
+        name: Upstairs
+        title: Upstairs
         type: entities
       - entities:
-          - entity: automation.goodnight
-        title: Goodnight
-        type: glance
+          - switch.laundry_room_light
+          - switch.workout_room_ceiling_light
+          - light.jasco_products_14294_in_wall_smart_dimmer_level_2
+        name: downstairs
+        title: Downstairs
+        type: entities
+      - entities:
+          - fan.jasco_products_14287_fan_control_switch_level_3
+          - fan.jasco_products_14287_fan_control_switch_level
+          - fan.jasco_products_14287_fan_control_switch_level_2
+        name: Keeping cool
+        title: Keeping cool
+        type: entities
+      - entity: weather.home
+        type: weather-forecast
     path: default_view
     title: Home
