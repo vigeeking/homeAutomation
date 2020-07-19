@@ -20,6 +20,7 @@ services:
   app:
     build:
       context: app
+      dockerfile: mattermost/mattermost-team-edition
       # uncomment following lines for team edition or change UID/GID
       # args:
       #   - edition=team
@@ -62,8 +63,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
 
 volumes:
+  pipeline:
   web:
   db: 
-    image: postgres:latest
   app:
-    image: mattermost:latest
