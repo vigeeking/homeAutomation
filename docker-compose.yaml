@@ -1,10 +1,11 @@
 version: '3'
 services:
-  home-assistant:
-    image: homeassistant/home-assistant:stable
+  homeassistant:
+    image: homeassistant/homeassistant:stable
     network_mode: "host" 
     volumes: 
       - ./homeassistant/config:/config
+   These lines crash home assistant in dev
     devices: 
       - /dev/ttyUSB0:/dev/ttyUSB0
       - /dev/ttyUSB1:/dev/ttyUSB1        
@@ -14,5 +15,17 @@ services:
       - "8080:80"
     volumes:
       - ./html:/usr/share/nginx/html
+  nodered1:
+    container_name: node-red-1
+    restart: unless-stopped
+    image: nodered/node-red-docker
+    depends_on:
+      - "homeassistant"
+    user: root
+    volumes:
+      - ./node-red:/data
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "1880:1880"
 volumes:
   pipeline:
