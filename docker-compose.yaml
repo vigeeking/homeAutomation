@@ -1,11 +1,12 @@
 version: '3'
 services:
   homeassistant:
-    image: homeassistant/homeassistant:stable
+    container_name: homeassistant
+    restart: unless-stopped
+    image: homeassistant/home-assistant:stable 
     network_mode: "host" 
     volumes: 
       - ./homeassistant/config:/config
-   These lines crash home assistant in dev
     devices: 
       - /dev/ttyUSB0:/dev/ttyUSB0
       - /dev/ttyUSB1:/dev/ttyUSB1        
