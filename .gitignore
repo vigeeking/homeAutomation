@@ -1,0 +1,16 @@
+
+
+zigbee.db
+home-assistant.log
+.storage/auth
+.storage/auth_provider.homeassistant
+home-assistant_v2.db
+OZW_Log.txt
+core.restore_state
+secrets.yaml
+.storage/core.area_registry
+.storage/core.entity_registry
+.storage/core.config
+.storage/lovelace
+.storage/onboarding
+.storage/core.uuid
