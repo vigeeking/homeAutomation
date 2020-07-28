@@ -12,7 +12,7 @@ homeassistant:
       friendly_name: "Upstairs hallway"
     switch.jasco_products_14291_in_wall_smart_switch_switch:
       friendly_name: "Master Bedroom light"
-    switch.jasco_products_28169_plug_in_one_outlet_smart_switch_switch_2:
+    light.jasco_products_14294_in_wall_smart_dimmer_level_2:
       friendly_name: "Downstairs light"
     switch.jasco_products_28169_plug_in_one_outlet_smart_switch_switch:
       friendly_name: "Board game light"

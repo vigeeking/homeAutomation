@@ -9,6 +9,7 @@ OZW_Log.txt
 core.restore_state
 secrets.yaml
 .storage/core.area_registry
+.storage/core.entity_registry
 .storage/core.config
 .storage/lovelace
 .storage/onboarding
