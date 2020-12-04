@@ -7,11 +7,3 @@ This blurb is to be the sole "business value add" for this project.  I am writin
 Currently, the pipeline can be created by pulling this repo and running 
 docker-compose up -d 
 in the directory you cloned this project into.
-
-Well, Looks like I pushed to prod a bit earlier than expected.
-
-It is currently 3:30am on Saturday, 9/12/2020, and vigeeking has gone live.  
-
-https://www.youtube.com/watch?v=M_w_n-8w3IQ
-
-
